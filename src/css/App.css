@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.wrapper {
+  width: 800px;
+  min-height: 300px;
+  margin: auto;
+  padding: 30px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.heading {
+  margin-top: 40px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}

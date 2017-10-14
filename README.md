@@ -1,70 +1,20 @@
-# Heftybyte At Home Coding Challenge
+# Solution to Coding Challenge
+A simple web app that lists Github users sorted by the number of repos they have.
 
-### Challenge:  Github User List
+## How To Use
+- Install npm dependencies
 
-### Focus: Javascript
-### Time: 2hrs
-### Challenge:
+        npm install
+<br>
 
-Build a simple web app that lists Github users sorted by the number of repos they have. The UI should consist of:
+## Launch the Solution App
+- Start the server
 
-- an input search box for users to enter a comma separated list of Github usernames into
-- a button to start the search
-- a vertical list of usernames along with number of repos below the search
+        npm run start
+<br>
 
-Github has an open JSON API exposed over HTTPS. To fetch user data, use the /users endpoint with the Github username as the last path part like so:
+- Open your browser and enter the following:
 
-**Request**
+        localhost:3000
 
-`https://api.github.com/users/esco`
-
-**Response**
-```json
-{
-  "login": "esco",
-  "id": 375773,
-  "avatar_url": "https://avatars3.githubusercontent.com/u/375773?v=4",
-  "gravatar_id": "",
-  "url": "https://api.github.com/users/esco",
-  "html_url": "https://github.com/esco",
-  "followers_url": "https://api.github.com/users/esco/followers",
-  "following_url": "https://api.github.com/users/esco/following{/other_user}",
-  "gists_url": "https://api.github.com/users/esco/gists{/gist_id}",
-  "starred_url": "https://api.github.com/users/esco/starred{/owner}{/repo}",
-  "subscriptions_url": "https://api.github.com/users/esco/subscriptions",
-  "organizations_url": "https://api.github.com/users/esco/orgs",
-  "repos_url": "https://api.github.com/users/esco/repos",
-  "events_url": "https://api.github.com/users/esco/events{/privacy}",
-  "received_events_url": "https://api.github.com/users/esco/received_events",
-  "type": "User",
-  "site_admin": false,
-  "name": "Esco Obong",
-  "company": "@Uber",
-  "blog": "https://twitter.com/escobyte",
-  "location": "NYC",
-  "email": null,
-  "hireable": null,
-  "bio": null,
-  "public_repos": 69,
-  "public_gists": 4,
-  "followers": 49,
-  "following": 4,
-  "created_at": "2010-08-25T14:45:27Z",
-  "updated_at": "2017-08-13T10:47:26Z"
-}
-```
-### Submission
-Push your code to this repo within 2hrs after starting.
-
-### Take Note
-
-The challenge may seem simple, but keep in mind we are judging the following factors:
-
-- Code Quality (clean code)
-- Performance (bandwidth, latency..etc)
-- Code Organization (excellent code structure)
-- Proficiency with JavaScript (modern features)
-
-Bring your best talent to this task! We care much more about these factors than we do about 100% functionality.
-
-**Good Luck!**
+## Start searching Github by entering comma-separated user names.
