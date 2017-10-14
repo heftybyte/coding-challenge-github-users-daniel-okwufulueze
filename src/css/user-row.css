@@ -1,0 +1,25 @@
+.user-row {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  color: #9a9a9a;
+  height: 30px;
+  line-height: 30px;
+}
+
+.user-row:hover {
+  background: #dcdede;
+}
+
+.user-name {
+  width: 500px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.number-of-repo {
+  width: 300px;
+  text-align: left;
+  font-size: 14px;
+}

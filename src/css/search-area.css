@@ -1,0 +1,27 @@
+.search-area {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#users {
+  width: 680px;
+  height: 40px;
+  color: #7a7a7a;
+  outline: none;
+  border: 1px solid #dcdede;
+  font-size: 12px;
+}
+
+#search {
+  width: 120px;
+  height: 40px;
+  background: #29aae1;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+}
+
+.error {
+  border: 1px solid #ee5333 !important;
+}
